@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Suma</title>
+    
+    <!-- Agregar Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Calculadora de Suma</h1>
+        <form action="/sumar" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1" name="num1" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="num2">Número 2:</label>
+                <input type="number" id="num2" name="num2" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Sumar</button>
+        </form>
+    </div>
+    <!-- Agregar Bootstrap JS (opcional, solo si necesitas funcionalidades de Bootstrap) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
